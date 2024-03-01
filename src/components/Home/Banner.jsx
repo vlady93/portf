@@ -43,7 +43,7 @@ export const Banner = () => {
                     </Pill>
                 </li>
                 <li>
-                    <Pill url={'https://github.com/cristianorregodev'} externalUrl={true}>
+                    <Pill url={'https://github.com/vlady93'} externalUrl={true}>
                         <GitHubIcon className="size-4 md:size-6" /> GitHub
                     </Pill>
                 </li>

@@ -27,7 +27,7 @@ export const Navbar = () => {
                     <ul className="hidden md:flex md:space-x-8 items-center ">
                         <li>
                             <a
-                                href="https://www.linkedin.com/in/cristianorregod/"
+                                href="https://linkedin.com/in/vladimir-huanca-cruz"
                                 target="_blank"
                                 className="text-dark-700 hover:text-dark-500 dark:text-dark-200 dark:hover:text-dark-50 transition-colors duration-300"
                                 aria-label="Visit my LinkedId profile"
@@ -37,7 +37,7 @@ export const Navbar = () => {
                         </li>
                         <li>
                             <a
-                                href="https://github.com/cristianorregodev"
+                                href="https://github.com/vlady93"
                                 target="_blank"
                                 className="text-dark-700 hover:text-dark-500 dark:text-dark-200 dark:hover:text-dark-50 transition-colors duration-300"
                                 aria-label="Visit my Github profile"
@@ -101,7 +101,7 @@ export const Navbar = () => {
                     <ul className="flex justify-center space-x-8 my-4 md:hidden">
                         <li>
                             <a
-                                href="https://linkedin.com/in/cristianorregod"
+                                href="https://linkedin.com/in/vladimir-huanca-cruz"
                                 className="text-dark-700 hover:text-dark-900 dark:text-dark-200 dark:hover:text-dark-50 transition-colors duration-300"
                                 target="_blank"
                             >
@@ -110,7 +110,7 @@ export const Navbar = () => {
                         </li>
                         <li>
                             <a
-                                href="https://github.com/cristianorregodev"
+                                href="https://github.com/vlady93"
                                 className="text-dark-700 hover:text-dark-900 dark:text-dark-200 dark:hover:text-dark-50 transition-colors duration-300"
                                 target="_blank"
                             >
