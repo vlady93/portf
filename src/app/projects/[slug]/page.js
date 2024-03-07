@@ -6,14 +6,14 @@ export async function generateMetadata({ params }, parent) {
     const project = PROJECTS.find((project) => project.slug === slug)
     const previousImages = (await parent).openGraph?.images || []
     return {
-        metadataBase: new URL('https://cristianorrego.dev'),
-        title: `Cristian Orrego Dev 👨‍💻 | ${project.title}`,
+        metadataBase: new URL(''),
+        title: `Vlady Dev 👨‍💻 | ${project.title}`,
         description: project?.content?.abstract,
         openGraph: {
-            title: `Cristian Orrego Dev 👨‍💻 | ${project.title}`,
+            title: `Vlady Dev 👨‍💻 | ${project.title}`,
             description: project?.content?.abstract,
             images: [project?.content?.images?.cover, ...previousImages],
-            author: 'cristianorregodev',
+            author: 'vladydev',
         },
     }
 }
