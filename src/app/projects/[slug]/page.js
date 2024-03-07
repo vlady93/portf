@@ -6,7 +6,7 @@ export async function generateMetadata({ params }, parent) {
     const project = PROJECTS.find((project) => project.slug === slug)
     const previousImages = (await parent).openGraph?.images || []
     return {
-        metadataBase: new URL(''),
+        metadataBase: new URL('https://portfolio-eight-eta-60.vercel.app/'),
         title: `Vlady Dev 👨‍💻 | ${project.title}`,
         description: project?.content?.abstract,
         openGraph: {
